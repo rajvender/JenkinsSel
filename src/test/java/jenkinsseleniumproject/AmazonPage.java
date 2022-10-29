@@ -10,7 +10,6 @@ public class AmazonPage {
 public static void main () {
 System.setProperty("webdriver.chrome.driver","H:\\Chromedriver\\chromedriver.exe");
 WebDriver driver=new ChromeDriver();
-//get website 
 driver.get("https://www.amazon.com/");
 
 
